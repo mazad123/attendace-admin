@@ -1,12 +1,6 @@
 //local url
 export const API_BASE_URL = "http://localhost:3001/v1/";
 
-//staging url
-//  export const API_BASE_URL = "http://3.110.37.237:3004/v1/";
-
-//live url
-// export const API_BASE_URL = "https://api.kisattendence.cf/v1";
-
 export const AUTH = {
   LOGIN: "auth/login",
   LOGOUT: "auth/logout",
