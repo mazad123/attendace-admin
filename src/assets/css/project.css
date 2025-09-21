@@ -1,0 +1,376 @@
+/** Custom css **/
+
+.project-heading-info {
+    white-space: nowrap;
+    width: 88%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+}
+
+.project-description-info {
+    min-height: 120px;
+    max-height: 120px;
+    font-size: 13px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.edit_project_btn {
+    padding: 6px !important;
+    line-height: 0;
+}
+
+.project-userimg-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cus-row-wrap .col-md-2 {
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 32%);
+}
+
+.card_height {
+    height: 38vh;
+}
+
+/** Projects update cSs **/
+
+.project-updates-content-info,
+.content-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.discussions-list-content-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.projects-update-wrapper a {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.head-title-info {
+    text-transform: capitalize;
+}
+
+.description-info {
+    font-size: 14px;
+    color: #a9a5a5;
+}
+
+.col-red {
+    color: #ad4242;
+}
+
+.date-info {
+    font-size: 14px;
+}
+
+.project-updates-content-info,
+.discussions-list-content-info {
+    font-size: 14px;
+}
+
+.post-new-message-wrap .btn {
+    font-size: 12px;
+}
+
+.discussions-list-content-info .follow-up-wrap {
+    flex-basis: 70%;
+    max-width: 70%;
+    padding: .25em 1em .25em 0;
+}
+
+.discussions-list-content-info .user-name-wrap {
+    flex-basis: 15%;
+    max-width: 15%;
+    padding: .25em 1em .25em 0;
+}
+
+.discussions-list-content-info .date-wrap {
+    flex-basis: 15%;
+    max-width: 15%;
+    padding: .25em 0;
+}
+
+.img-wrap img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.text_box_outline:focus {
+    border: none !important;
+    box-shadow: none !important;
+
+}
+
+.discussions-list-wrap {
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.discussions-list-wrap:hover {
+    background: #f7fafb;
+    box-shadow: 0 0 10px #39547c;
+}
+
+.pu-message-wrap p:first-child {
+    white-space: nowrap;
+    max-width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 0px;
+    margin-bottom: 20px;
+
+}
+
+.pu-message-wrap li,
+.pu-message-wrap ol {
+    max-width: 95%;
+    list-style: auto;
+
+}
+
+.pu-message-wrap {
+    max-height: 41px;
+    overflow: hidden;
+}
+
+/** Projects update end cSs **/
+
+.full-selectbox .css-1qgnntc-container {
+    width: 100%;
+}
+
+.main_content_panel.main_content_panel2 {
+    background-color: #fff;
+    margin: 20px;
+    padding: 22px;
+    box-shadow: 0 0 13px #e2e2e2;
+    border-radius: 10px;
+}
+
+.main_content_panel.main_content_panel2 .dashboard_card {
+    padding: 0;
+    box-shadow: none;
+}
+
+.main_content_panel.main_content_panel2 .previous-chat {
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+/*** Media screen ***/
+@media screen and (min-width:1366px) {
+    .cus-row-wrap .col-md-2 {
+        /* width: 18.75%; */
+        width: 23.5%;
+    }
+}
+
+@media screen and (max-width:1365px) {
+    .cus-row-wrap .col-md-2 {
+        width: 18.5%;
+    }
+
+
+}
+
+.follow-up-info_name {
+    font-weight: bolder;
+}
+
+/* project-updates-info */
+.project_updates_info #pills-profile-tab {
+    max-height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.project_discussions_list {
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* .modal,.modal-backdrop.show{
+    z-index: 999 !important;
+}
+
+.customModal{
+position: fixed;
+top: 50%;
+left: 50%;
+height: 100vh;
+transform: translate(-50%, -50%);
+width: 50%;
+display: flex;
+align-items: center;
+width: 100%;
+pointer-events: auto;
+background-color: #0000007a;
+background-clip: padding-box;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 0.3rem;
+outline: 0
+}
+.customModal .modal-lg {
+    margin: 1.75rem auto;
+    background: #fff;
+    border-radius: 4px;
+    padding: 15px;
+    max-width: 800px;
+    width:100%;
+} */
+
+body {
+    --ck-z-default: 100;
+    --ck-z-modal: calc(var(--ck-z-default) + 999);
+}
+
+.ck-body-wrapper {
+    z-index: 1300 !important;
+}
+
+.message-dropdown {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.message-dropdown input[type="text"] {
+    width: 20px;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 9px;
+    line-height: 40px;
+}
+
+.message-dropdown div:hover {
+    background-color: transparent;
+}
+
+.message-dropdown .message-inner-drop.user-exists {
+    border: 1px solid #ddd !important;
+    border-radius: 5px;
+}
+
+.message-dropdown .message-inner-drop.user-exists .message-option:hover {
+    /* background-color: #deebff !important; */
+    background-color: #e0e0e0 !important;
+}
+
+.message-dropdown .message-inner-drop {
+    border: none !important;
+}
+
+.message-dropdown input[type="text"]:focus {
+    border: 2px solid #2684FF;
+}
+
+.btn.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #919191; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #919191; 
+  }
+  
+.form-select-view{
+    height: 38px;
+    border-color: hsl(0, 0%, 80%);
+  }
+  .main_content_panel.main_content_panel2.subjec-content .previous-chat {
+    height: 758px;
+}
+
+.text-editor .ck.ck-content.ck-editor__editable {
+    height: 280px;
+}
+.main_content_panel.main_content_panel2.project-upadts-con .previous-chat {
+    height: 530px;
+}
+.project-updates-content-info .date-info{
+    min-width: 90px;
+}
+.thread-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.thread-name button {
+    padding: 0;
+    min-width: 30px;
+    min-height: 30px;
+}
+@media only screen and (max-width: 992px) {
+    .main_content_panel.main_content_panel2.main_content_panel3 {
+        width: 100%;
+    }
+
+    .main_content_panel.main_content_panel2.main_content_panel3 .previous-chat {
+        height: initial;
+    }
+
+    .main_content_panel.main_content_panel2.main_content_panel3 {
+        width: 96%;
+        margin: auto;
+        margin-left: auto;
+    }
+
+    .main_content_panel.main_content_panel2 {
+        margin: 0px;
+    }
+
+    .main_follow_info h6 {
+        font-size: 14px;
+    }
+
+    .main_follow_info .chat-btn {
+        margin-top: 32px;
+    }
+
+    .main_content_panel.main_content_panel2 .previous-chat {
+        height: auto;
+    }
+    .main_content_panel.main_content_panel2.subjec-content .previous-chat {
+        height: auto;
+    }
+    .main_content_panel.main_content_panel2.project-upadts-con .previous-chat {
+        height: auto;
+    }
+}

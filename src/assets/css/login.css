@@ -1,0 +1,119 @@
+.admin_login-page {
+  background-image: url(../images//admin_login_bg.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amdin_login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.amdin_login-box .illustration-wrapper {
+  background: transparent;
+  padding: 50px;
+  width: 50%;
+  max-width: 50%;
+  height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.amdin_login-box .illustration-wrapper h2 {
+  font-size: 44px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #78b1e1;
+  font-weight: 600;
+}
+
+.amdin_login-box form#login-form {
+  border-left: 1px solid #dadada;
+  width: 50%;
+  padding: 50px;
+}
+
+.login_layout {
+  background: #fff;
+  border-radius: 4px;
+    margin-bottom: 15px;
+    overflow: hidden;
+  box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
+
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  min-height: 50px;
+}
+
+.input-group input:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.input-group .input-group-prepend span {
+  height: 50px;
+  background: #faaf19;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  padding: 16px;
+  width: 44px;
+}
+
+.forgot_pw {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forgot_pw a, .forgot_pw label{
+  color: #777;
+}
+
+.select_role select.form-select {
+  border: none;
+  height: 40px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 12px 28px 0px, rgb(0 0 0 / 10%) 0px 2px 4px 0px, rgb(255 255 255 / 5%) 0px 0px 0px 1px inset;
+  color: #777;
+    text-transform: uppercase;
+}
+
+.select_role {
+  margin-bottom: 20px;
+}
+
+button.req_btn {
+  background: #79b2e1;
+  border: 1px solid #79b2e1;
+  padding: 7px 20px;
+  border-radius: 6px;
+  color: #fff;
+  transition: all .7s;
+}
+
+button.req_btn:hover {
+  background: #fff;
+  color: #79b2e1;
+}
+
+button.btn.btn-leave_status.btn-2 {
+    padding: 0 !important;
+    background-color: transparent !important;
+    opacity: 1;
+    box-shadow: none;
+}

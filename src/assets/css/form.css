@@ -1,0 +1,273 @@
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.form-dropdown {
+  position: relative;
+  display: inline-block;
+  width:100%;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+
+.btn-toolbar {
+  padding-bottom: 10px;
+}
+.inputWidth, .textAreaWidth, .radioButtonWidth{
+  width: 40%;
+  text-align: left;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content .linkForm {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content .linkForm:hover {background-color: #ddd;}
+.form-dropdown:hover .dropdown-content {display: block;}
+.dropdown-submenu{
+  top: 0;
+  left: 102%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 10px 0;
+}
+.dropdown-submenu:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 3px;
+  border: 8px solid #fff;
+  border-color: transparent transparent #fff #fff;
+  transform: translateX(-50%) rotate(40deg);
+  box-shadow: -2px 2px 3px rgb(57 73 76 / 10%);
+  z-index: 9999;
+}
+.dropdown-submenu .linkForm {
+  padding: 4px 16px;
+}
+
+
+.generate_form button {
+  margin-right: 30px;
+}
+.generate_form .css-6fuiu7-container,.users-box {
+  width: 100%;
+}
+.generate_form .container{
+  background: #fff;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 15px 20px 20px 20px;
+}
+
+.generate_form {
+  width: 100%;
+  padding: 15px;
+  height: calc(100vh - 70px);
+  max-width: 600px;
+  margin: auto;
+}
+.generate_form  h4 {
+  color: #79b2e0;
+}
+.generated-form-heading{
+  color: #79b2e0;
+}
+.details-output-form {
+  width: 100%;
+  max-width: 900px;
+  margin: 15px auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 40px;
+  position: relative;
+  box-shadow: 0 0 13px #d4eafd;
+}
+.details-output-form > tr {
+  border-bottom: 1px solid #ccc;
+}
+.tableform-heading{
+  max-width: 900px;
+  margin: auto;
+}
+.details-output-form  tr:nth-child(even) {
+  background-color: transparent;
+}
+.details-output-form td{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.details-output-form .quiz {
+  padding-top: 8px;
+}
+.details-output-form .answer {
+  font-weight: 600;
+}
+.details-output-form tr:last-child table {
+  margin-bottom: 10px;
+}
+.tableform-heading h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #79b2e0;
+}
+.generated_form_wrapper{
+  white-space: nowrap;
+}
+.generated_form_table {
+  max-height: calc(100vh - 17rem);
+}
+.generated_form_wrapper table th {
+  /* position: sticky;
+  top: 0; */
+  background: #fff;
+  border-left: 1px solid #c1c1c1;
+  z-index: 2;
+  /* box-shadow: -5px 0 0 0 rgba(0, 0, 0, .25); */
+}
+.generated_form_wrapper table thead{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.report_table tr th:first-child{
+  border-left: 1px solid #c1c1c1;
+}
+.generated_form_wrapper table tbody {
+  border-top: 0 !important;
+}
+.sub-quiz-listing {
+  margin-bottom: 5px;
+}
+.sub-quiz-listing li {
+  font-weight: 500;
+}
+.dropdown_icon {
+  height: 34px;
+}
+.generated_form_table th {
+  vertical-align: middle;
+}
+
+
+
+.feedback-form-wapper {
+  width: 100%;
+  max-width: 700px;
+  margin: 15px auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px 40px;
+  position: relative;
+  box-shadow: 0 0 13px #d4eafd;
+}
+.feedback-form-wapper h2 {
+  text-align: center;
+  color: #79b2e0;
+  font-weight: 600;
+}
+.feedback-form-wapper .w-50 {
+  width: 100% !important;
+}
+.feedback-form-wapper .formio-component-submit {
+  text-align: center;
+  margin-top: 10px;
+  /* margin-right: -224px; */
+}
+.feedback-form-wapper .back_btn {
+  position: absolute;
+  bottom: 20px;
+  left: 19.5%;
+}
+.feedback-form-wapper .back_btn .btn,.feedback-form-wapper .formio-component-submit .btn{
+   width: 200px;
+}
+.feedback-form-wapper .formio-component-submit .btn[disabled] {
+  background: #91b5eb;
+  border-color: #91b5eb;
+}
+.feedback-form-wapper .input-group-text {
+  min-height: 38px;
+}
+.forms_card {
+  background: #fff;
+  border: none;
+  font-weight: 700;
+  box-shadow: 0 0 13px #e2e2e2;
+}
+.forms_card a{
+  color: #fab325 !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+.forms_card h4 {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.feedback-main-wrapper {
+  width: 100%;
+  background: rgb(255,255,255);
+  background: linear-gradient(26deg, rgba(255,255,255,1) 53%, rgba(245,249,253,1) 0%);
+  background-attachment: fixed;
+}
+
+.feedback-leftside {
+  /* position: sticky;
+  top: 0; */
+  padding-top: 15px;
+}
+.feedback-leftside h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #7ab3e1;
+  margin-top: 30px;
+}
+.feedback-form-wapper .formio-component-name, .feedback-form-wapper .formio-component-employeeId,.feedback-form-wapper .formio-component-designation,.feedback-form-wapper .formio-component-reportingManager,.feedback-form-wapper .formio-component-dateOfJoining,.feedback-form-wapper .formio-component-dateOfRelieving,.feedback-form-wapper .formio-component-department{
+  width: 50% !important;
+  float: left;
+}
+.feedback-form-wapper .form-group{
+  padding: 5px;
+  padding-bottom: 10px;
+}
+.feedback-form-wapper .field-required:after{
+  position: absolute;
+  padding-left: 2px;
+}
+.generated_form_table th:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  top: 0;
+}
+.releiving-approval-btn {
+  height: 30px;
+  width: 34px;
+  display: inline-block;
+  padding: 0 !important;
+}
+span.manager_name {
+  font-weight: 600;
+  margin-right: 5px;
+}
